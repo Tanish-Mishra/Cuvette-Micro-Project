@@ -1,0 +1,140 @@
+:root {
+  --theme-brown: #ffcd9e;
+  --theme-black: #282828;
+  --theme-white: #fff;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 67vh;
+  width: 100vw;
+  background-color: var(--theme-brown);
+}
+.left_hero{
+    
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   height: 67vh;  
+  width: 60%;
+  
+}
+
+.content_container {
+    position: relative;
+    top: 4.2rem;
+    left: 9rem;
+    word-spacing: 0.27rem;
+}
+.right_hero {
+  height: 67vh;
+  width: 40%;
+}
+.right_hero img {
+  width:100%;
+}
+.main_content {
+padding-bottom: 2rem;
+width: 53%;
+}
+.para_content {
+    width: 50%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.looks_bold {
+    font-size: 1.25rem;
+    margin-top: 1.02rem;
+    
+}
+.email_responses {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+.email_responses button {
+    padding: 1.1rem 0.8rem;
+    background: var(--theme-black);
+    color: var(--theme-white);
+    border-radius: 0.5rem;
+    border: 1px solid var(--theme-black);
+    cursor: pointer;
+}
+.email_input{
+    padding: 1rem 2rem;
+    border: 0.25rem solid #000;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+.no_spam {
+    /* margin-top: 1.5rem; */
+    padding: 2rem 1.7rem;
+    font-size: 0.9rem;
+    color: var(--theme-white);
+    text-align: start;
+    word-spacing: 0;
+}
+
+                                                    /* Footer  */
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    height:33vh;
+    width: 100vw;
+    background-color: var(--theme-black); 
+   
+    
+}
+.footer ul {
+    list-style: none;
+    color: var(--theme-white);
+}
+
+.list_cont_i{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 33vh;
+    width: 50vw;
+}
+.list_cont_ii{
+     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50vw;
+    height: 33vh;
+}
+.list_cont_i ul{
+    position: absolute;
+    top: 4rem;
+    left: 9.25rem;
+}
+.list_cont_ii ul {
+    position: absolute;
+    top: 4rem;
+    right: 9.25rem;
+}
+
+.right_shift_text{
+    text-align: end;
+}
+.list {
+    line-height: 1.8rem;
+}
+
+ .dweep_mail {
+    line-height: 3.5rem;
+} 
+
